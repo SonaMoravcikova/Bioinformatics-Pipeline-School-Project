@@ -13,7 +13,7 @@ This shell script creates the directory structure required for the bioinformatic
 This script runs FastQC on raw sequencing data files and saves them in fastqc_reports/ then it performs quality trimming using Trimmomatic either with general or custom parameters to prepare the raw data for downstream analyses. Furthermore it counts the number of deleted reads during trimming for each sample and saves the results in deleted_reads_results.txt .
 
 
-### 3. fastqc_after_trimm.sh
+### 3. fastqc_afterTrimm.sh
 
 This script runs FastQC again on the processed data after trimming. It assesses the quality of the trimmed data to ensure that the trimming process was successful.
 
